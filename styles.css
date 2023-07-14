@@ -9,7 +9,7 @@ img {
 }
 
 .header {
-    width: 80%;
+    max-width: 1048px;
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
@@ -84,6 +84,11 @@ img {
     .profile{
         margin: 0 auto;
     }
+
+    .header {
+        width: 90%;
+        padding-left: 5%;
+    }
 }
 
 @media screen and (min-width: 577px) and  (max-width: 992px){
@@ -101,11 +106,16 @@ img {
         margin: 0 auto;
     }
 
+    .header {
+        margin-left: 5%;
+    }
+
     
 }
 
 @media screen and (max-width: 720px) {
     .header {
+        margin-left: 5%;
         flex-direction: column;
         gap: 20px;
         justify-content: space-around;
